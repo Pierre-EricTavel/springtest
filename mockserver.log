@@ -1,0 +1,24 @@
+2019-08-02 17:37:32,457 INFO o.m.m.HttpStateHandler started on port: 1080
+2019-08-02 17:37:34,616 INFO o.m.m.HttpStateHandler no expectation for:
+
+	{
+	  "method" : "GET",
+	  "path" : "/ittaspringTest/premiere.html",
+	  "headers" : {
+	    "User-Agent" : [ "Java/1.8.0_161" ],
+	    "Host" : [ "localhost:1080" ],
+	    "Accept" : [ "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2" ],
+	    "Connection" : [ "keep-alive" ],
+	    "content-length" : [ "0" ]
+	  },
+	  "keepAlive" : true,
+	  "secure" : false
+	}
+
+ returning response:
+
+	{
+	  "statusCode" : 404,
+	  "reasonPhrase" : "Not Found"
+	}
+
